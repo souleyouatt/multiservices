@@ -93,6 +93,17 @@ header {
 }
 
 /* Navigation */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
 nav {
     background-color: #fcfafa;
 }
