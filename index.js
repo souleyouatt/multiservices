@@ -94,3 +94,11 @@ window.addEventListener("load", function () {
         // Start auto-sliding when page loads
         startAutoSlide();
     });
+document.getElementById("mobile-menu").addEventListener("click", function () {
+    let navMenu = document.getElementById("nav-menu");
+    if (navMenu.style.display === "block") {
+        navMenu.style.display = "none";
+    } else {
+        navMenu.style.display = "block";
+    }
+});
